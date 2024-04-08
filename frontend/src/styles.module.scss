@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid #f00;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .output {
+        padding: 10px 30px 10px 30px;
+        background-color: aliceblue;
+    }
+}
