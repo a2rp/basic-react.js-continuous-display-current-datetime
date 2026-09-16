@@ -54,7 +54,6 @@ src/index.css    Responsive application styling
 - This project is a frontend-only display app.
 - It does not use an API, database, authentication, analytics integration, or form submission.
 - No automated test setup is included.
-- See [Documentation.md](./Documentation.md) for implementation details.
 
 ## Author
 
