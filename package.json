@@ -13,8 +13,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://a2rp.github.io/basic-react.js-continuous-display-current-datetime",
   "eslintConfig": {
     "extends": [
       "react-app"

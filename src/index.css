@@ -25,7 +25,13 @@ body {
     display: grid;
     place-items: center;
     padding: 24px;
+    gap: 18px;
 }
+
+.footer { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px 12px; color: #97abc0; font-size: 0.78rem; text-align: center; }
+.footer a { color: #d7e3f0; font-weight: 600; transition: color .2s ease; }
+.footer a:hover { color: #83ccff; }
+.footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px 12px; width: 100%; }
 
 .clock-card {
     width: min(100%, 640px);
