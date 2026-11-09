@@ -15,7 +15,7 @@ A focused React frontend that continuously displays the visitor's current date, 
 ## Tech Stack
 
 - React 18
-- Create React App
+- Vite
 - Plain CSS
 - React Icons
 
@@ -26,12 +26,13 @@ npm install
 npm start
 \`\`\`
 
-Open the local URL shown by Create React App. For a production check:
+Open the local URL shown by Vite. Run the linter and create a production build with:
 
 \`\`\`bash
 npm run build
-npm run deploy
 \`\`\`
+
+To publish the `dist` build to the GitHub Pages branch, run `npm run deploy`.
 
 ## Future Prospects
 

@@ -135,7 +135,7 @@ const App = () => {
                 <section className="story-card" aria-labelledby="story-title">
                     <div className="story-image-wrap">
                         <img
-                            src={process.env.PUBLIC_URL + "/clock-architecture.jpg"}
+                            src={import.meta.env.BASE_URL + "clock-architecture.jpg"}
                             alt="Architectural lines and blue sky representing a clear time display"
                             className="story-image"
                         />
