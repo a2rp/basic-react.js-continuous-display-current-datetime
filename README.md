@@ -21,16 +21,16 @@ A focused React frontend that continuously displays the visitor's current date, 
 
 ## Setup
 
-\`\`\`bash
+```bash
 npm install
 npm start
-\`\`\`
+```
 
 Open the local URL shown by Vite. Run the linter and create a production build with:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 To publish the `dist` build to the GitHub Pages branch, run `npm run deploy`.
 
@@ -42,11 +42,11 @@ To publish the `dist` build to the GitHub Pages branch, run `npm run deploy`.
 
 ## Images
 
-- \`screenshot.png\` - current home-screen screenshot
-- \`public/clock-architecture.jpg\` - local feature image
-- \`public/preview.png\` - social sharing preview
-- \`public/logo.png\` - application logo
-- \`public/favicon.ico\` - browser favicon
+- `screenshot.png` - current home-screen screenshot
+- `public/clock-architecture.jpg` - local feature image
+- `public/preview.png` - social sharing preview
+- `public/logo.png` - application logo
+- `public/favicon.ico` - browser favicon
 
 ## License
 
